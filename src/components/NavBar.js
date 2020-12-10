@@ -61,16 +61,16 @@ function Navbar() {
             </li>
 
             <li>
-              <Link
+              {/* <Link
                 to='/sign-up'
                 className='nav-links-mobile'
                 onClick={closeMobileMenu}
               >
                 Sign Up
-              </Link>
+              </Link> */}
             </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
+          {button && <Button buttonStyle='btn--outline'>SOME BUTTON</Button>}
         </div>
       </nav>
     </>
